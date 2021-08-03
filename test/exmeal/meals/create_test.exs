@@ -4,7 +4,7 @@ defmodule Exmeal.Meals.CreateTest do
   describe "Create Meal" do
     test "when all params are valid, returns the meal" do
       params = %{
-        calories: 20,
+        # calories: 20,
         date: ~D[2001-05-02],
         description: "Banana"
       }
@@ -21,7 +21,7 @@ defmodule Exmeal.Meals.CreateTest do
     end
     test "when there are invalid params, returns an error" do
       params = %{
-        calories: 20,
+        calories: "20",
         date: ~D[2001-05-02],
       }
 
