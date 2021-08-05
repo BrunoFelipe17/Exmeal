@@ -3,27 +3,7 @@
     {
       "describe": "update/2",
       "file": "c:/Users/Bruno/Desktop/ignite_projects/exmeal/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 73
-    },
-    {
-      "describe": "update/2",
-      "file": "c:/Users/Bruno/Desktop/ignite_projects/exmeal/test/exmeal_web/controller/meals_controller_test.exs",
       "line": 95
-    },
-    {
-      "describe": "get/2",
-      "file": "c:/Users/Bruno/Desktop/ignite_projects/exmeal/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 130
-    },
-    {
-      "describe": "get/2",
-      "file": "c:/Users/Bruno/Desktop/ignite_projects/exmeal/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 108
-    },
-    {
-      "describe": "create/2",
-      "file": "c:/Users/Bruno/Desktop/ignite_projects/exmeal/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 26
     },
     {
       "describe": "delete/2",
@@ -31,9 +11,29 @@
       "line": 58
     },
     {
+      "describe": "create/2",
+      "file": "c:/Users/Bruno/Desktop/ignite_projects/exmeal/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 5
+    },
+    {
+      "describe": "get/2",
+      "file": "c:/Users/Bruno/Desktop/ignite_projects/exmeal/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 108
+    },
+    {
+      "describe": "update/2",
+      "file": "c:/Users/Bruno/Desktop/ignite_projects/exmeal/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 73
+    },
+    {
       "describe": "delete/2",
       "file": "c:/Users/Bruno/Desktop/ignite_projects/exmeal/test/exmeal_web/controller/meals_controller_test.exs",
       "line": 43
+    },
+    {
+      "describe": "get/2",
+      "file": "c:/Users/Bruno/Desktop/ignite_projects/exmeal/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 130
     }
   ],
   "failed": [],
@@ -42,9 +42,9 @@
     {
       "describe": "create/2",
       "file": "c:/Users/Bruno/Desktop/ignite_projects/exmeal/test/exmeal_web/controller/meals_controller_test.exs",
-      "line": 5,
+      "line": 26,
       "module": "Elixir.Exmeal.MealsControllerTest",
-      "test": "test create/2 when all params are valid, creates a meal"
+      "test": "test create/2 when there are invalid params, returns an error"
     }
   ],
   "skiped": []

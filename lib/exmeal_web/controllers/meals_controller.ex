@@ -4,7 +4,7 @@ defmodule ExmealWeb.MealsController do
   alias Exmeal.Meal
   alias ExmealWeb.FallbackController
 
-  action_fallback FallbackControlelr
+  action_fallback FallbackController
 
   def create(conn, params) do
     with {:ok, %Meal{} = meal} <- Exmeal.create_meal(params) do
