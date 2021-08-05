@@ -7,6 +7,8 @@ defmodule Exmeal.Meal do
 
   @primary_key {:id, :binary_id, autogenerate: true}
 
+  @derive {Jason.Encoder, only: [:id, :calories, :date, :description]}
+
   schema "meals" do
     field :calories, :integer
     field :date, :date
