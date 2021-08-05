@@ -1,21 +1,50 @@
 {
-  "excluded": [],
+  "excluded": [
+    {
+      "describe": "update/2",
+      "file": "c:/Users/Bruno/Desktop/ignite_projects/exmeal/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 73
+    },
+    {
+      "describe": "update/2",
+      "file": "c:/Users/Bruno/Desktop/ignite_projects/exmeal/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 95
+    },
+    {
+      "describe": "get/2",
+      "file": "c:/Users/Bruno/Desktop/ignite_projects/exmeal/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 130
+    },
+    {
+      "describe": "get/2",
+      "file": "c:/Users/Bruno/Desktop/ignite_projects/exmeal/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 108
+    },
+    {
+      "describe": "create/2",
+      "file": "c:/Users/Bruno/Desktop/ignite_projects/exmeal/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 26
+    },
+    {
+      "describe": "delete/2",
+      "file": "c:/Users/Bruno/Desktop/ignite_projects/exmeal/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 58
+    },
+    {
+      "describe": "delete/2",
+      "file": "c:/Users/Bruno/Desktop/ignite_projects/exmeal/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 43
+    }
+  ],
   "failed": [],
   "invalid": [],
   "passed": [
     {
-      "describe": "Create Meal",
-      "file": "c:/Users/Bruno/Desktop/ignite_projects/exmeal/test/exmeal/meals/create_test.exs",
-      "line": 22,
-      "module": "Elixir.Exmeal.Meals.CreateTest",
-      "test": "test Create Meal when there are invalid params, returns an error"
-    },
-    {
-      "describe": "Create Meal",
-      "file": "c:/Users/Bruno/Desktop/ignite_projects/exmeal/test/exmeal/meals/create_test.exs",
+      "describe": "create/2",
+      "file": "c:/Users/Bruno/Desktop/ignite_projects/exmeal/test/exmeal_web/controller/meals_controller_test.exs",
       "line": 5,
-      "module": "Elixir.Exmeal.Meals.CreateTest",
-      "test": "test Create Meal when all params are valid, returns the meal"
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test create/2 when all params are valid, creates a meal"
     }
   ],
   "skiped": []
